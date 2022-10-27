@@ -1,0 +1,19 @@
+*{
+    font-family: monospace;
+    /**outline: solid;**/
+}
+body{
+    background-color: crimson;
+}
+.main{
+    width: 90%;
+    margin: auto;
+    font-size: 16;
+}
+tr,th,td{
+    outline: solid maroon 2px;
+}
+h1{
+    background-color: gray;
+    text-align: center;
+}
