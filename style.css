@@ -3,17 +3,32 @@
     /**outline: solid;**/
 }
 body{
-    background-color: crimson;
+    background-color: lightcyan;
 }
 .main{
     width: 90%;
     margin: auto;
     font-size: 16;
+    height: 500px;
+}
+table{
+    padding-bottom: 5px;
 }
 tr,th,td{
-    outline: solid maroon 2px;
+    outline: solid rgb(0,200,255) 2px;
+}
+td{
+    height: 90%;
+    vertical-align: top;
+}
+th{
+    background-color:rgb(0,200,255);
 }
 h1{
-    background-color: gray;
+    background-color: rgb(0,200,255);
     text-align: center;
+}
+button{
+    display: grid;
+    margin: auto;
 }
